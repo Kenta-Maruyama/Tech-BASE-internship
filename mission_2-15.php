@@ -1,8 +1,8 @@
 ﻿<?php
 //データベースへの接続
-$dsn='mysql:dbname=co_1021_it_99sv_coco_com;host=localhost';
-$user='co-1021.it.99sv-';
-$password='nIaBxA3';
+$dsn = 'mysql:dbname=データベース名;host=localhost';
+$user = 'ユーザー名';
+$password = 'パスワード';
 $pdo = new PDO($dsn,$user,$password);
 $stmt = $pdo->query('SET NAMES utf8');
 //2-8テーブルをつくる 名前・コメント・パスが入る
