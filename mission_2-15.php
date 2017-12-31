@@ -93,7 +93,7 @@ if(!empty($doEdi)){
 	$edi_name = $name;
 	$edi_com = $comment;
 	//idを検索し、updateで変数入れ替える
-	$sql = "update utau set name='$edi_name',comment='$edi_com' where id = '$id';";
+	$sql = "update ramen set name='$edi_name',comment='$edi_com' where id = '$id';";
 	$result = $pdo->query($sql);
 }
 //削除機能---------------------------------------------------------------------------------
